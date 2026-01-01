@@ -5,8 +5,8 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "build:github": "ng build --base-href=/spacefarm-dev/",
-    "deploy": "ng build --base-href=/spacefarm-dev/ && npx gh-pages@latest -d dist/spacefarm-dev/browser",
+    "build:github": "ng build --base-href=/",
+    "deploy": "ng build --base-href=/ && npx gh-pages@latest -d dist/spacefarm-dev/browser",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
