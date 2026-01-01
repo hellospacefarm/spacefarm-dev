@@ -16,8 +16,8 @@ p {
   margin-bottom: 2rem;
 }
 
-.form-placeholder {
-  background: var(--bg-secondary);
+.form {
+  background: white;
   border: 2px dashed var(--accent-color);
   border-radius: 8px;
   padding: 4rem 2rem;
