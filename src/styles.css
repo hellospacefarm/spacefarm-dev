@@ -1,1 +1,49 @@
-/* You can add global styles to this file, and also import other style files */
+/* Global styles with dark VS Code-like theme */
+
+:root {
+  /* Dark theme colors */
+  --bg-primary: #1e1e1e;
+  --bg-secondary: #252526;
+  --bg-tertiary: #2d2d30;
+
+  /* Text colors */
+  --text-primary: #cccccc;
+  --text-secondary: #9d9d9d;
+
+  /* Accent color - sky blue */
+  --accent-color: #3794ff;
+  --accent-hover: #4da6ff;
+
+  /* Border colors */
+  --border-color: #3e3e42;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+    sans-serif;
+  line-height: 1.6;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+a {
+  color: var(--accent-color);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+a:hover {
+  color: var(--accent-hover);
+}
