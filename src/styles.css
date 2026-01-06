@@ -2,7 +2,7 @@
 
 :root {
   /* Dark theme colors */
-  --bg-primary: black;
+  --bg-primary: #111111ff;
   --bg-secondary: #252526;
   --bg-tertiary: #2d2d30;
 
